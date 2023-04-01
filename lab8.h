@@ -6,6 +6,10 @@ public:
         count++;
     }
 
+    ~MyClass(){
+        count--;
+    }
+
     int get_id() const {
         return id;
     }
